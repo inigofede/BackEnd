@@ -17,6 +17,7 @@ import jakarta.validation.Valid;
 import java.util.HashSet;
 import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -36,6 +37,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author Reveck
  */
+@ComponentScan
 @RestController
 @RequestMapping("/auth")
 @CrossOrigin(origins = {"https://hfia-frontend.web.app"})

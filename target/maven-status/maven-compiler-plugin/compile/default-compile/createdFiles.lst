@@ -7,6 +7,7 @@ com\argpro\hfia\Security\Entity\UsuarioPrincipal.class
 com\argpro\hfia\Entity\Persona.class
 com\argpro\hfia\Security\Controller\Mensaje.class
 com\argpro\hfia\Repository\IPersonaRepository.class
+com\argpro\hfia\Controller\WebConfig.class
 com\argpro\hfia\Security\Controller\AuthController.class
 com\argpro\hfia\Security\Entity\Rol.class
 com\argpro\hfia\Dto\dtoEducacion.class

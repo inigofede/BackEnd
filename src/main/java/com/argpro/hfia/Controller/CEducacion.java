@@ -11,6 +11,7 @@ import com.argpro.hfia.Service.Seducacion;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -27,6 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author Reveck
  */
+@ComponentScan
 @RestController
 @RequestMapping("/educacion")
 @CrossOrigin(origins = {"https://hfia-frontend.web.app"})
