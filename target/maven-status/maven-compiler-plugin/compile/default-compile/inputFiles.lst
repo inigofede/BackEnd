@@ -1,7 +1,6 @@
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\HfiaApplication.java
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Security\jwt\JwtEntryPoint.java
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Security\Repository\iUsuarioRepository.java
-E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Controller\WebConfig.java
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Security\Service\UserDetailsImpl.java
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Service\SExperiencia.java
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Secutiry\Dto\NuevoUsuario.java
@@ -9,6 +8,7 @@ E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Secutiry\Dto\LoginUsuario.java
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Service\ImpPersonaService.java
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Repository\IPersonaRepository.java
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Secutiry\Dto\JwtDto.java
+E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\WebConfig.java
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Repository\REducacion.java
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Entity\Educacion.java
 E:\HFIA\BackEnd\src\main\java\com\argpro\hfia\Controller\PersonaController.java

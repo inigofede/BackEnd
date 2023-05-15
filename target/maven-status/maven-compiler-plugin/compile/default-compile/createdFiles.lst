@@ -7,12 +7,12 @@ com\argpro\hfia\Security\Entity\UsuarioPrincipal.class
 com\argpro\hfia\Entity\Persona.class
 com\argpro\hfia\Security\Controller\Mensaje.class
 com\argpro\hfia\Repository\IPersonaRepository.class
-com\argpro\hfia\Controller\WebConfig.class
 com\argpro\hfia\Security\Controller\AuthController.class
 com\argpro\hfia\Security\Entity\Rol.class
 com\argpro\hfia\Dto\dtoEducacion.class
 com\argpro\hfia\Secutiry\Dto\LoginUsuario.class
 com\argpro\hfia\Entity\Educacion.class
+com\argpro\hfia\WebConfig.class
 com\argpro\hfia\Repository\REducacion.class
 com\argpro\hfia\Repository\RExperiencia.class
 com\argpro\hfia\Service\Seducacion.class
