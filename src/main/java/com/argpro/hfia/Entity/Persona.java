@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
 @Entity
@@ -13,21 +13,18 @@ public class Persona {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     
-    @NotNull
+    @NotBlank
     @Size(min = 1, max = 50, message = "no cumple con la longitud")
     private String nombre;
     
-    @NotNull
+    @NotBlank
     @Size(min = 1, max = 50, message = "no cumple con la longitud")
     private String apellido;
     
-    @NotNull
+    @NotBlank
     private String descripcion;
     
     private String img;
-
-    public Persona() {
-    }
 
     public Persona(String nombre, String apellido, String descripcion, String img) {
         this.nombre = nombre;
