@@ -19,7 +19,7 @@ public class WebConfig implements WebMvcConfigurer{
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // Permitir CORS para todos los endpoints
-                .allowedOrigins("https://hfia-frontend.web.app") // Origen permitido
+                .allowedOrigins("**") // Origen permitido
                 .allowedMethods("GET", "POST", "PUT", "DELETE") // Métodos permitidos
                 .allowedHeaders("*"); // Encabezados permitidos
     }
